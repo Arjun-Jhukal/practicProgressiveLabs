@@ -1,0 +1,17 @@
+input,
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+button {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  width: 100%;
+}
+.btn__submit {
+  background-color: orangered;
+}

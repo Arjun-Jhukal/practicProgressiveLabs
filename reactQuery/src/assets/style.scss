@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style-type: none;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+
+  &:visited {
+    color: initial;
+  }
+
+  &.active {
+    color: orangered;
+  }
+}
+
+.menu__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px 0;
+  background-color: #f7f7f7;
+
+  a {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+}
